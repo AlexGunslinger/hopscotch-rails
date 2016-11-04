@@ -405,7 +405,8 @@ div.hopscotch-bubble .hopscotch-bubble-close {
   appearance: none;
   border: 0;
   color: #000;
-  background: transparent url(../img/sprite-green.png) -192px -92px no-repeat;
+  background: transparent -192px -92px no-repeat;
+  background-image: image-url('sprite-green.png');
   display: block;
   padding: 8px;
   position: absolute;
@@ -421,7 +422,8 @@ div.hopscotch-bubble .hopscotch-bubble-close.hide-all {
   display: none;
 }
 div.hopscotch-bubble .hopscotch-bubble-number {
-  background: transparent url(../img/sprite-green.png) 0 0 no-repeat;
+  background: transparent 0 0 no-repeat;
+  background-image: image-url('sprite-green.png');
   color: #fff;
   display: block;
   float: left;
